@@ -1,3 +1,8 @@
-.title{
-    font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
+p.title{
+    font-size: 70px;
+    margin-bottom: -50px;
+}
+
+p.subtitle{
+    font-size: 20px;
 }
