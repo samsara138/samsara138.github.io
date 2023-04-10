@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.section1 {
+    background-color: #f2f2f2;
+}
+.section2 {
+    background-color: #d9d9d9;
+}
+.section3 {
+    background-color: #bfbfbf;
+}
