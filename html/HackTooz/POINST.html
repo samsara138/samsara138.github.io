@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Passive OSINT</title>
+    <title>Passive OSINT</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+
+    <script type="text/javascript" src="/assets/js/csvHandler.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js"></script>
 </head>
-<body>
-	<a href="HackToolz.html">Back</a>
 
-    <br>
+<body onload="renderCSV('/assets/csv/POINST_res.csv','POINSTContainer')">
+    <button onclick="goToHome()">Home</button>
 
-    <p>
-        <a href="https://osintframework.com/">OSINT framework</a>
-         - When in doubt, check the framework
-    </p>
-
-    <h2>Social Media</h2>
-    <p>
-        <a href="https://whatsmyname.app/">What's my name</a>
-         - use all potential usernames to find social media posts and accounts
-    </p>
-
-    <h2>Wifi and communications</h2>
-    <p>
-        <a href="https://wigle.net">wigle</a>
-         - Find information about wifi APs, cell or bluetooth devices
-    </p>
-
+    <div id="POINSTContainer"></div>
 </body>
+
 </html>
