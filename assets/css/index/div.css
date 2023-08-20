@@ -5,16 +5,30 @@ div.section {
     align-items: center;
     font-size: 3rem;
 }
+
 div.introduction {
     background-color: #f2f2f2;
+    position: relative;
 }
+
 div.about-me {
     background-color: #d9d9d9;
+    position: relative;
 }
+
 div.projects {
     background-color: #bfbfbf;
+    position: relative;
 }
 
 div.intro-text-holder{
     padding-right: 50px;
+}
+
+/* Section title that float on Upper left*/
+div.section-title{
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }

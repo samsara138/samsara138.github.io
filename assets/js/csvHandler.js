@@ -2,7 +2,6 @@
 // Function to render a CSV as an HTML table
 function generateHTML(csvData) {
     const parsedData = $.csv.toObjects(csvData)
-    console.log(parsedData)
 
     let tableHtml = ""
     var previouseType = ""
