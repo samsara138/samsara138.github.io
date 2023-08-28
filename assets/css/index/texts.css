@@ -1,9 +1,13 @@
 p.title{
     font-size: 70px;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
 }
 
 p.subtitle{
     font-size: 20px;
     margin-bottom: -20px;
+}
+
+p.general{
+    font-size: 40px;
 }

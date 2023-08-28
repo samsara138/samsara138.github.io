@@ -3,7 +3,6 @@ div.section {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
 }
 
 div.introduction {
@@ -31,4 +30,10 @@ div.section-title{
     position: absolute;
     top: 10%;
     left: 10%;
+    font-size: 3rem;
+}
+
+div.section-content{
+    padding-top: 5%;
+    width: 60%;
 }
