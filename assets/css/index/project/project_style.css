@@ -1,6 +1,6 @@
 div.projects-container {
     position: absolute;
-    top: 30%;
+    top: 35%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 200px; /* Gap between grid items */
