@@ -3,3 +3,6 @@ Type,Name,url,Desc
 Social Media,What's my name,https://whatsmyname.app,Use all potential usernames to find social media posts and accounts
 Social Media,MOSINT,https://github.com/alpkeskin/mosint,Email checker
 Wifi and communications,wigle,https://wigle.net/,"Find information about wifi APs, cell or bluetooth devices "
+Breached Data,Psbdmp,https://psbdmp.ws/,Paste bin check
+Breached Data,Intellegence X,https://intelx.io/,"Search for breach databases, give breach file name"
+Breached Data,Breach Dictionary,https://breachdirectory.org/,"Search for breached credentials, give hashed password"
