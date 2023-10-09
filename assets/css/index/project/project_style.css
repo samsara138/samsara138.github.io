@@ -2,8 +2,8 @@ div.projects-container {
     position: absolute;
     top: 35%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 200px; /* Gap between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px; /* Gap between grid items */
     max-width: 80%; /* Set a maximum width for the grid */
     margin: 0 auto; /* Center the grid horizontally */
 }
