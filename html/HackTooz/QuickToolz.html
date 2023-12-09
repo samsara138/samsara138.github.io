@@ -11,11 +11,22 @@
 <body>
     <button onclick="goToHome()">Home</button>
 
-    <div id="AListToAscii">
-        <h1> List of ASCII int to string</h1>
-        <input type="text" id = AListInput>
+    <div id="ListToAscii">
+        <h1> List of ASCII int to string </h1>
+        <input type="text" id = ListInput>
         <button onclick="ListToAscii()">List to string</button>
-        <p id="AAsciiOutput">Output will be shown here</p>
+        <p id="AsciiOutput">Output will be shown here</p>
+    </div>
+
+    <div id="PwdGenerator">
+        <h1> Password generator </h1>
+        <input type="number" id="PasswordLength" value="12" min="1">
+        <input type="checkbox" id="numbersCheckbox" checked>Numbers
+        <input type="checkbox" id="lowercaseCheckbox" unchecked>Lowercase
+        <input type="checkbox" id="uppercaseCheckbox" unchecked>Uppercase
+        <input type="checkbox" id="symbolsCheckbox" unchecked>Symbols
+        <button onclick="GeneratePassword()">Generate Password</button>
+        <p id="PasswordOutput">Password will show here</p>
     </div>
 </body>
 
