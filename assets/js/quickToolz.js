@@ -88,13 +88,7 @@ function GeneratePassword() {
 
 
 function GetElementInsideContainer(containerID, childID) {
-  var elm = {};
-  var elms = document.getElementById(containerID).getElementsByTagName("*");
-  for (var i = 0; i < elms.length; i++) {
-    if (elms[i].id === childID) {
-      elm = elms[i];
-      break;
-    }
-  }
+  //TODO: this
+  var elm = document.getElementById(childID);
   return elm;
 }
