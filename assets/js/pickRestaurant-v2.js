@@ -1,7 +1,7 @@
 var restaurantData = null
 
-function InitPage() {
-    const csvData = readCSV("/assets/csv/Restaurants.csv").then(parsedData => {
+function InitPage(csvPath = "/assets/csv/Restaurants.csv") {
+    const csvData = readCSV(csvPath).then(parsedData => {
         restaurantData = parsedData
 
         // Setup dropdowns
