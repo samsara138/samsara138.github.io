@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurant Picker</title>
+
+    <link rel="stylesheet" href="/assets/css/restaurantPicker.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+    
+    <script type="text/javascript" src="/assets/js/csvHandler-v2.js"></script>
+    <script type="text/javascript" src="/assets/js/pickRestaurant.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js"></script>
+</head>
+
+<body onload="InitPage()">
+    <button onclick="goToHome()">Home</button>
+
+    <h2>Select Type:</h2>
+    <select id="typeDropdown"></select>
+  
+    <h2>Select Location:</h2>
+    <select id="locationDropdown"></select>
+
+    <h2>Select Price:</h2>
+    <select id="priceDropdown"></select>
+
+    <br>
+    <br>
+
+    <button onclick="PickRestaurant()">Pick</button>
+
+    <br>
+    <br>
+
+    <table id="ResultTable">
+        <thead>
+            <tr>
+
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,3 +1,11 @@
+function readCSV(fileName){
+    return fetch(fileName)
+        .then(response => response.text())
+        .then(data => {
+            const parsedData = $.csv.toObjects(data)
+            return parsedData
+        })
+}
 
 // Function to render a CSV as an HTML table
 function generateHTML(csvData) {
