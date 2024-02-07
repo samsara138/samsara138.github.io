@@ -53,6 +53,7 @@ function PickRestaurant() {
     var location = GetDropdownSelected("locationDropdown")
     var price = GetDropdownSelected("priceDropdown")
     const resultTable = document.getElementById("ResultTable")
+    const noResultDisplay = document.getElementById("NoResult")
 
     const selected = []
 
@@ -70,6 +71,12 @@ function PickRestaurant() {
     }
 
     renderTable(selected, resultTable)
+
+    if (selected.length > 0){
+        noResultDisplay.style.display = "none"
+    }else{
+        noResultDisplay.style.display = "block"
+    }
 }
 
 function renderTable(list, table) {
@@ -84,7 +91,6 @@ function renderTable(list, table) {
         headerRow.appendChild(th);
     }
 
-
     for (let i = 0; i < list.length; i++) {
         var values = Object.values(list[i])
         console.log(values)
@@ -98,5 +104,4 @@ function renderTable(list, table) {
 
         tbody.appendChild(tr); // Append tr to the tbody
     }
-
 }
