@@ -1,0 +1,62 @@
+div.projects-container {
+    position: absolute;
+    top: 35%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    width: 80%;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.projects-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+div.project-frame {
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    outline-style: solid;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+img.project-image {
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+p.project-title {
+    font-size: clamp(24px, 5vw, 40px);
+    text-align: center;
+    margin: -10px 0;
+}
+
+p.project-description {
+    font-size: clamp(14px, 3vw, 20px);
+}
+
+@media (max-width: 1600px) {
+    div.project-frame {
+        min-width: 250px;
+        padding: 15px;
+    }
+}

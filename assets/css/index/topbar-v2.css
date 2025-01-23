@@ -1,0 +1,33 @@
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px; /* Default font size */
+}
+
+.top-bar a:hover {
+    font-size: 22px;
+}
+
+@media (max-width: 700px) {
+    .top-bar a {
+        font-size: 20px; /* Increase font size on mobile */
+        padding: 15px; /* Increase padding for better spacing */
+    }
+}
