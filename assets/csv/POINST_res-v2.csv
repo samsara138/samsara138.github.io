@@ -6,5 +6,6 @@ Wifi and communications,wigle,https://wigle.net/,"Find information about wifi AP
 Breached Data,Psbdmp,https://psbdmp.ws/,Paste bin check
 Breached Data,Intellegence X,https://intelx.io/,"Search for breach databases, give breach file name"
 Breached Data,Breach Dictionary,https://breachdirectory.org/,"Search for breached credentials, give hashed password"
+Breached Data,PenTester,https://pentester.com/,"Pretty interface and decent result of breached data, including your ip and username"
 Service attack surface,LeakIX,https://leakix.net/,"Search for misconfigured exposed services"
 Service attack surface,Censys,https://search.censys.io/,"Records of attack surface and threats gathering"
